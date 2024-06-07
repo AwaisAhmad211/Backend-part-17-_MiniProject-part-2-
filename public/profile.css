@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    height: 100%;
+    background-color: #0c0c0c;
+    color: white;
+    margin: 20px;
+}
+.logout{
+    display: flex;
+    margin-left: 95%;
+}
+.logout a{
+    outline: none;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+h3{
+   margin-bottom: 10px;
+}
+form{
+    margin: 25px 0;
+}
+form textarea{
+    height: 120px;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.384);
+    outline: none;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+form button{
+    background-color: blue;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.384);
+    outline: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 3px;
+}
+.postContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.postContainer .post{
+    border: 2px solid rgba(255, 255, 255, 0.384);
+    width: 400px;
+    padding: 5px;
+    margin: 10px 0;
+}
+.btns a{
+    outline: none;
+    color: white;
+    background-color: rgb(62, 90, 185);
+    text-decoration: none;
+    border-radius: 2px;
+    margin: 7px;
+    padding: 3px;
+}
